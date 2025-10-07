@@ -1,7 +1,7 @@
 import java.time.LocalDateTime;
 import java.util.List;
 
-public abstract class Voo {
+public abstract class Voo implements IVoo {
 
     private String nVoo;
     private LocalDateTime horaPartida;
