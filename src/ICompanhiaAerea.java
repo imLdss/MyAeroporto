@@ -2,7 +2,7 @@ public interface ICompanhiaAerea {
 
     String getNome();
 
-    double getTaxadeLucro();
+    double getTaxaLucro();
 }
 
 

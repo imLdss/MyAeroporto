@@ -1,4 +1,4 @@
-import java.time.LocalDateTime;
+
 
 public class CompanhiaAerea implements ICompanhiaAerea {
 
@@ -16,7 +16,7 @@ public class CompanhiaAerea implements ICompanhiaAerea {
     }
 
     @Override
-    public double getTaxadeLucro() {
+    public double getTaxaLucro() {
         return taxaDeLucro;
     }
 }
