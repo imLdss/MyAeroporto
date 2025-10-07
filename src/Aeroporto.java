@@ -2,10 +2,10 @@ public class Aeroporto implements IAeroporto{
 
     private double taxaReabastecimento;
     private String codigo;
-    private String localizacao;
-    private String nome;
+    private final String localizacao;
+    private final String nome;
 
-    public Aeroporto(String codigo, String nome ,String localizacao, double taxaReabastecimento ) {
+    public Aeroporto(String codigo,String nome,String localizacao,double taxaReabastecimento) {
         this.codigo = codigo;
         this.nome = nome;
         this.localizacao = localizacao;

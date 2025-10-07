@@ -3,7 +3,7 @@
 public class CompanhiaAerea implements ICompanhiaAerea {
 
     private final String nome;
-    private final double taxaDeLucro;
+    private double taxaDeLucro;
 
     public CompanhiaAerea(String nome, double taxaDeLucro) {
         this.nome = nome;
